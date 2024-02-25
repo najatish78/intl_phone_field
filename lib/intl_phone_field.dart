@@ -483,7 +483,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
                         ),
                   const SizedBox(width: 8),
                 ],
-                FittedBox(
+                Center(
                   child: Text(
                     '+${_selectedCountry.dialCode}',
                     style: widget.dropdownTextStyle,
